@@ -1,41 +1,41 @@
-**Vaccine Booking System**  
+## **Vaccine Booking System - Python GUI Application**  
 
-The **Vaccine Booking System** is a web-based application designed to streamline the process of vaccine appointment scheduling, availability tracking, and notification management. Built using **Python** and **MySQL**, this system ensures a secure, efficient, and user-friendly experience for individuals seeking vaccination.  
+### **📌 Overview**  
+The **Vaccine Booking System** is a **Tkinter-based Python application** that allows users to register, log in, book vaccine slots, view patient details, and delete records. It uses text files to store user credentials and patient data.  
 
-### 🔹 Features  
-- **User Registration & Authentication** – Secure login and account management  
-- **Appointment Scheduling** – Book and manage vaccine appointments  
-- **Vaccine Availability Check** – Real-time updates on vaccine stock  
-- **Appointment Notifications** – Email/SMS alerts for scheduled appointments  
-- **Data Security & Privacy** – Compliance with healthcare data protection standards  
-- **Responsive Design** – Accessible across various devices  
+### **🚀 Features**  
+✅ **User Registration & Login**  
+✅ **Dashboard:** Options for Patient Registration & Viewing Patients  
+✅ **Patient Registration:** Name, Contact, Gender, Vaccine Type, Date, Slot, City  
+✅ **View Patients:** Displays registered patient data in a table format  
+✅ **Delete Patients:** Remove selected patient records  
 
-### 🔹 Tech Stack  
-- **Backend:** Python (Flask/Django)  
-- **Database:** MySQL  
-- **Frontend:** HTML, CSS, JavaScript  
-- **Security:** User authentication & encrypted data storage  
+### **🛠️ Technologies Used**  
+- **Python** (Core programming)  
+- **Tkinter** (GUI framework)  
+- **ttk.Treeview** (For displaying patient data)  
+- **File Handling** (Stores data in `users.txt` & `patients.txt`)  
 
-### 🔹 Installation & Setup  
-1. Clone the repository:  
-   ```sh
-   git clone https://github.com/yourusername/vaccine-booking-system.git
-   cd vaccine-booking-system
-   ```  
-2. Install dependencies:  
-   ```sh
-   pip install -r requirements.txt
-   ```  
-3. Configure database (MySQL) and update credentials in the config file  
-4. Run the application:  
-   ```sh
-   python app.py
-   ```  
+### **📂 Folder Structure**  
+```
+📂 Vaccine-Booking-System  
+ ├── 📄 main.py  (Python script)  
+ ├── 📄 users.txt  (Stores login credentials)  
+ ├── 📄 patients.txt  (Stores patient records)  
+ ├── 📜 README.md  (Project details)  
+```
 
-### 🔹 Contributions  
-Contributions are welcome! Feel free to fork, submit issues, or create pull requests.  
+### **💡 How to Run?**  
+1️⃣ **Clone the Repository:**  
+```bash
+git clone https://github.com/your-username/Vaccine-Booking-System.git
+cd Vaccine-Booking-System
+```
+2️⃣ **Run the Script:**  
+```bash
+python main.py
+```
 
-### 🔹 License  
-This project is licensed under the **MIT License**.  
+### **🔗 GitHub Repository:** [Your Repo Link]  
 
-📌 **Stay safe, get vaccinated!** 🚀
+Let me know if you need any modifications! 🚀
